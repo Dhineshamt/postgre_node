@@ -1,5 +1,5 @@
 const { Pool, Client } = require('pg')
-
+// url: https://node-postgres.com/features/connecting
 const client = new Client({
     user: 'postgres',
     host: 'localhost',
